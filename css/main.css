@@ -1,0 +1,79 @@
+body {
+	background-color: #000;
+	font-family: "Trebuchet MS", "Lucida Grande", Arial,Tahoma,Helvetica,sans-serif;
+	color: #343533;
+	font-size: 14px;
+	line-height:1.3em;
+	font-style:italic;
+	
+}
+
+h1, h2, h3, h4 { font-family:"Trebuchet MS", "Lucida Grande", Arial, Helvetica, sans-serif; margin: 0 0 0.3em 0; font-weight:normal; }
+header h1 { font-size: 5.1em; font-style:italic;}
+header h3 { font-size: 1.7em; font-style:italic;}
+h5, h6 { margin: 0 0 0.9em 0; }
+h1 { font-size: 3.50em;  line-height: 1em; margin-bottom:0; }
+h2 { font-size: 2.50em;  line-height: 1.22em; }
+h3 { font-size: 2em;  line-height: 1.22em; }
+h4 { font-size: 1.2em;  line-height: 0.8em; }
+h5 { font-size: 1.33em; font-weight: bold; }
+h6  { font-size: 1em; font-weight: bold; }
+a { text-decoration: none; color: #26577f; }
+a:hover { color: #2b3e4e; }
+p { margin-bottom: 1.65em; font-style: italic; font-size:1.4em; line-height:1.45em;}
+em { color: #fff; background:#cc3333; text-decoration: none !important; }
+strong { font-weight: bold; }
+
+.contetnWrapper {
+	background-color: #eee;
+}
+
+.contentBlock {
+	margin: 0 auto;
+	padding: 0 10px 20px 10px;
+	width: 880px;
+	height: 100%;
+	display:block;
+}
+
+header {
+	width:900px;
+	position: relative;
+	display: block;
+}
+
+#title {
+	padding-top: 80px;
+	margin: 0 auto;
+	width: 35em;
+	display: bock;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+header nav {
+	top:20px;
+	right: 0px;
+	position: absolute;
+	right: 0px;
+}
+
+.clear {
+	clear:both;
+}
+
+#nav {list-style:none; font-style:normal;}
+#nav { font-weight: bold; text-transform: uppercase; letter-spacing:0.03em; margin-right:54px !important; }
+#nav li {margin-left:20px !important; display:inline; float:left;}
+ul#nav li a { color: #757575; text-decoration: none; display:block; padding:2px 6px; 
+ -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;}
+#nav li a.current { color: #fff; background:#cc3333; text-decoration: none; }
+#nav li a:hover { color: #fff; background:#cc3333;}
+#nav li ul li a { color: #d6d6d6; font-size: 0.83em; }
+
+footer {
+	padding-top: 10px;
+	color: #eee;
+}
